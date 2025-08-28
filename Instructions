@@ -1,3 +1,8 @@
 1) Run EquationMatcher
 2) Run FilterFileName
 3) Run FindEquation
+4) Run ValidEquation
+
+This code successfully determines that the equation for the sum, 1+2+...+n = n# is a+1*a/2. This algorithm can be used to determine if a product equation exists, however due to memory restrictions it has not yet been determined.
+NOTE: the factorial equation n(n-1)! = n! is not a valid equation, since it is recursively defined; that is to say, '!' exists on both sides of the equation.
+Our goal is to find a nonrecursive, direct equation for the product, just like for the sum.
