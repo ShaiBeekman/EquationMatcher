@@ -81,7 +81,7 @@ public class EquationMatcher {
 
         int counter = 0;
 
-        int termsAmount = 6;
+        int termsAmount = 4;
 
         for (int t = 1; t <= termsAmount; t++) {
             expressionList.add(new ArrayList<Double>());
@@ -98,7 +98,7 @@ public class EquationMatcher {
 
             int allListCount=0;
 
-            for (int v = 1; (v <= 6); v++) {
+            for (int v = 1; (v <= 4); v++) {
 
                 if (t == 1) {
                     newTerm = v;
