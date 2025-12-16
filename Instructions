@@ -1,4 +1,5 @@
 1) Run EquationMatcher
+  1a) Input "2" upon running, which checks for x = 1 and x = 2 and then compares f(x=1) with f(x=2) to extrapolate a pattern.
 2) Run FilterFileName
 3) Run FindEquation
 4) Run ValidEquation
